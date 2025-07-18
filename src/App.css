@@ -1,0 +1,41 @@
+.app-content {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(32, 31, 31);
+  height: 100vh;
+}
+
+/* Sidebar */
+.nav-bar {
+  width: 220px; 
+  margin: 3rem;
+}
+.profile-component{
+  display: none;
+}
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 768px) {
+
+  .nav-bar {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .profile-component{
+    display: block;
+  }
+
+  
+}
+
