@@ -13,14 +13,17 @@ function App() {
         <Navbar />
        </div>
 
-       <div className="profile-component">
+       
+      <div className="main-content">
+       <div className="top-part">
+         <div className="profile-component">
         <ProfileComponent/>
 
        </div>
-      <div className="main-content">
         <div className="searchBar">
           <SearchBar />
         </div>
+       </div>
         <div className="content">
           
         </div>

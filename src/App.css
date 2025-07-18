@@ -4,7 +4,12 @@
   background-color: rgb(32, 31, 31);
   height: 100vh;
 }
-
+.top-part{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 /* Sidebar */
 .nav-bar {
   width: 220px; 
