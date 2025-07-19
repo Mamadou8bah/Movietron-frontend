@@ -1,7 +1,7 @@
 .search-bar{
     width: 40rem;
     height: 1.5rem;
-    margin-top: 1rem;
+    
     border-radius: 40px;
     background-color: rgb(45, 45, 45);
     display: flex;
@@ -31,8 +31,8 @@
 
 @media (max-width: 768px) {
   .search-bar {
-    width: 17rem;
-    height: 3rem;
+    width: 14rem;
+    height: 2rem;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     border-radius: 30px;

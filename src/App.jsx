@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/NavBar'
 import SearchBar from './components/SearchBar'
+import NotificationComponent from './components/NotificationComponent'
 import './App.css'
 
 import ProfileComponent from './components/ProfileComponent'
@@ -19,10 +20,14 @@ function App() {
          <div className="profile-component">
         <ProfileComponent/>
 
-       </div>
+         </div>
         <div className="searchBar">
           <SearchBar />
         </div>
+        <div className="notification-component">
+          <NotificationComponent />
+        </div>
+
        </div>
         <div className="content">
           
